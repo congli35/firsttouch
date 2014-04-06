@@ -1,2 +1,4 @@
 superman
 superwoman
+
+tar -cvpzf backup20140323.tar.gz --exclude=/backup20140323.tar.gz --exclude=/proc --exclude=/sys --exclude=/mnt --exclude=/media --exclude=/run --exclude=/dev --exclude=/home/cong/.gvfs --one-file-system / 
